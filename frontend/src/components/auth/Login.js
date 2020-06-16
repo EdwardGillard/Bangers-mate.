@@ -35,7 +35,7 @@ class Login extends React.Component {
     const { login, error } = this.state
     return (
       <>
-        <section className="hero is-fullheight-with-navbar">
+        <section className="form-sec">
           <div className="sign-ups">
             <form onSubmit={this.handleSubmit}>
               <p className="forms-name">Login:</p>

@@ -39,7 +39,7 @@ class Registration extends React.Component {
     const { errors, newUser } = this.state
     return (
       <>
-        <section className="hero is-fullheight-with-navbar">
+        <section className="form-sec">
           <div className="sign-ups">
             <form onSubmit={this.handleSubmit} >
               <p className="forms-name">Register:</p>
