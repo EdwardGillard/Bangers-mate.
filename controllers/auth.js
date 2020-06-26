@@ -18,6 +18,7 @@ async function register(req, res, next) {
   }
 }
 
+//* async function that logs in a user
 async function login(req, res, next) {
   try {
     const user = await User.findOne({ email: req.body.email })
